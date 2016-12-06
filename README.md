@@ -1,12 +1,15 @@
-php-indefinite-article
-======================
+indefinite-article
+==================
 
-This is a PHP port of the Lingua::EN::Inflect Perl module's A() and AN() subroutines.
+This is a PHP port of the Lingua::EN::Inflect Perl module's A() subroutine.
 
-For an example on how to use it, please see the test.php file.
+The best way to use it is with [Composer](https://getcomposer.org/): `php composer.phar require thaumatic/indefinite-article`
+
+Then you can `use Thaumatic\IndefiniteArticle;` and `echo 'This is ' . IndefiniteArticle::a('test');`
 
 Original module Copyright (c) 1997-2009 Damian Conway.
 http://search.cpan.org/dist/Lingua-EN-Inflect/lib/Lingua/EN/Inflect.pm
 
-This adaptation of the module is made by Niko Salminen (http://nikosalminen.com) and
-distributed under the simplified BSD licence.
+Previous adaptation by Niko Salminen (http://nikosalminen.com)
+
+Further work by Thaumatic Systems, LLC (http://thaumatic.com)
