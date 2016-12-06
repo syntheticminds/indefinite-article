@@ -1,0 +1,32 @@
+{
+    "name":"thaumatic/indefinite-article",
+    "description":"Grammatical utility for prepending an indefinite article to a word",
+    "keywords":[
+        "php",
+        "grammar",
+        "text"
+    ],
+    "type":"library",
+    "license":"BSD-2-Clause",
+    "authors":[
+        {
+            "name":"Matthew Sheahan",
+            "email":"ms@matthewrsheahan.com",
+            "role":"Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit\/phpunit": "*"
+    },
+    "autoload": {
+        "classmap": ["IndefiniteArticle.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thaumatic\\IndefiniteArticle\\Tests\\": "tests"
+        }
+    }
+}
