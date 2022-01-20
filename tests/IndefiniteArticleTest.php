@@ -2,9 +2,10 @@
 
 namespace Thaumatic\IndefiniteArticle\Tests;
 
+use PHPUnit\Framework\TestCase;
 use Thaumatic\IndefiniteArticle;
 
-class IndefiniteArticleTest extends \PHPUnit_Framework_TestCase
+class IndefiniteArticleTest extends TestCase
 {
 
     public function testExpectedPluralizations()
